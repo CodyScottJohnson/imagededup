@@ -96,11 +96,11 @@ setup(
     long_description=long_description,
     license='Apache 2.0',
     install_requires=[
-        'tensorflow-metal',
-        'Pillow',
+        'tensorflow-mac',
+        'Pillow<7.0.0',
         'tqdm',
         'scikit-learn',
-        'PyWavelets',
+        'PyWavelets~=1.1.1',
         'matplotlib'
     ],
     extras_require={
