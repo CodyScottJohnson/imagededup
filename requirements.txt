@@ -1,4 +1,4 @@
-tensorflow
+tensorflow-metal
 Pillow<7.0.0
 tqdm
 scikit-learn
