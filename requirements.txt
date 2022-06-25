@@ -1,8 +1,8 @@
 tensorflow-metal
-Pillow<7.0.0
+Pillow
 tqdm
 scikit-learn
-PyWavelets~=1.1.1
+PyWavelets
 matplotlib
 # Development dependencies
-cython>=0.29
+cython
