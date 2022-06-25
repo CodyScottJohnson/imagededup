@@ -96,7 +96,7 @@ setup(
     long_description=long_description,
     license='Apache 2.0',
     install_requires=[
-        'tensorflow',
+        'tensorflow-metal',
         'Pillow<7.0.0',
         'tqdm',
         'scikit-learn',
