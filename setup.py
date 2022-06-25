@@ -38,7 +38,7 @@ on_windows = sys.platform.startswith('win')
 
 MOD_NAME = 'brute_force_cython_ext'
 MOD_PATH = 'imagededup/handlers/search/brute_force_cython_ext'
-COMPILE_LINK_ARGS = ['-O3', '-march=native', '-mtune=native']
+COMPILE_LINK_ARGS = ['-O3', '-mcpu=apple-m1', '-mtune=native']
 # On Mac, use libc++ because Apple deprecated use of libstdc
 COMPILE_ARGS_OSX = ['-stdlib=libc++']
 LINK_ARGS_OSX = ['-lc++', '-nodefaultlibs']
